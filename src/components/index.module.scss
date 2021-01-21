@@ -1,0 +1,27 @@
+.jumbotron{
+    text-align: center;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kalimat{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate;
+    color: yellow;
+}
+
+.gambar{
+		z-index: 1;
+		top: 0px;
+}
+
+.bungkus{
+    position: relative;
+    text-align: center;
+    color: white;
+}
