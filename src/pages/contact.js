@@ -18,11 +18,7 @@ export default function contact({data}) {
         <Img fluid={data.contactGatsbyImage.childImageSharp.fluid} className={contactStyles.gambar} />
         </Col>
         <Col>
-<<<<<<< HEAD
         <p className={contactStyles.p}>if you need to build a modern and superior seo website, you can contact me at that contact .</p>
-=======
-        <p className={contactStyles.p}>if you need to build a modern and superior seo website, you can contact me at that contact</p>
->>>>>>> 79b6b0242b7ef2da645c282a79ec98a4c4ebfad6
         </Col>
       </Row>
       </Container>

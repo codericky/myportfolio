@@ -15,11 +15,7 @@ export default function Home ({data}) {
      <br />
       <Jumbotron className={indexStyles.jumbotron}>
       Kampus IT dan Bisnis dengan Metode Belajar 90% Praktek 10% Teori 
-<<<<<<< HEAD
       Full Praktek Langsung Kerja dan buka Bisnis.
-=======
-      Full Praktek Langsung Kerja dan buka Bisnis
->>>>>>> 79b6b0242b7ef2da645c282a79ec98a4c4ebfad6
       </Jumbotron>
       <Container>
       <h3 className="text-center">Activity</h3>
@@ -78,10 +74,6 @@ query {
       }
     }
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 79b6b0242b7ef2da645c282a79ec98a4c4ebfad6
     codingGatsbyImage:file(relativePath: {eq: "coding.jpg"}) {
     childImageSharp {
       fluid(maxWidth: 2000) {
@@ -97,12 +89,6 @@ query {
     }
   }
   keduaGatsbyImage:file(relativePath: {eq: "kedua.jpg"}) {
-<<<<<<< HEAD
-=======
-=======
-    buahGatsbyImage:file(relativePath: {eq: "buah.jpg"}) {
->>>>>>> f524bca2dbdc6c054181a5870701b882837db762
->>>>>>> 79b6b0242b7ef2da645c282a79ec98a4c4ebfad6
     childImageSharp {
       fluid(maxWidth: 2000) {
         ...GatsbyImageSharpFluid_tracedSVG
