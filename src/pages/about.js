@@ -28,7 +28,11 @@ export default function about({data}) {
 
 export const query = graphql`
 query {
+<<<<<<< HEAD
   aboutGatsbyImage:file(relativePath: {eq: "about.jpg"}) {
+=======
+  buahGatsbyImage:file(relativePath: {eq: "buah.jpg"}) {
+>>>>>>> f524bca2dbdc6c054181a5870701b882837db762
     childImageSharp {
       fluid(maxWidth: 2000) {
         ...GatsbyImageSharpFluid_tracedSVG

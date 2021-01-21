@@ -74,6 +74,7 @@ query {
       }
     }
   }
+<<<<<<< HEAD
     codingGatsbyImage:file(relativePath: {eq: "coding.jpg"}) {
     childImageSharp {
       fluid(maxWidth: 2000) {
@@ -89,6 +90,9 @@ query {
     }
   }
   keduaGatsbyImage:file(relativePath: {eq: "kedua.jpg"}) {
+=======
+    buahGatsbyImage:file(relativePath: {eq: "buah.jpg"}) {
+>>>>>>> f524bca2dbdc6c054181a5870701b882837db762
     childImageSharp {
       fluid(maxWidth: 2000) {
         ...GatsbyImageSharpFluid_tracedSVG
